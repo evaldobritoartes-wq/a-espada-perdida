@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://codf5ynplb5xm"]
+
+[ext_resource type="Texture2D" uid="uid://b4pwhpo4cbjxf" path="res://icon.svg" id="1_o5qli"]
+
+[node name="Main" type="Node2D" unique_id=1154501299]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1580867563]
+position = Vector2(640, 320)
+texture = ExtResource("1_o5qli")
+
+[node name="Label" type="Label" parent="." unique_id=155860760]
+offset_left = 440.0
+offset_top = 410.0
+offset_right = 840.0
+offset_bottom = 460.0
+text = "A Espada Perdida
+"
+horizontal_alignment = 1
